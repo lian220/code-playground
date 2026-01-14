@@ -1,12 +1,12 @@
 'use client';
 
-import { useState } from 'react';
 import CodeEditor from '@/components/CodeEditor';
-import LanguageSelector from '@/components/LanguageSelector';
 import ExecutionPanel from '@/components/ExecutionPanel';
+import LanguageSelector from '@/components/LanguageSelector';
 import SharePanel from '@/components/SharePanel';
 import SnippetsList from '@/components/SnippetsList';
 import { useCodeStore } from '@/store/codeStore';
+import { useState } from 'react';
 
 export default function HomePage() {
   const {
@@ -43,7 +43,7 @@ export default function HomePage() {
                 Code Playground
               </h1>
               <span className="text-sm text-gray-500 dark:text-gray-400">
-                코드 작성, 실행, 공유 플랫폼
+                리안리안 코드 작성, 실행, 공유 플랫폼
               </span>
             </div>
 
